@@ -61,11 +61,25 @@
 
   <div class="article-inner">
     
+      <header class="article-header">
+        
+  
+    <h2 itemprop="name">
+      <a class="article-title" href="/2019/07/26/初见Hexo/">初见HEXO</a>
+    </h2>
+  
+  
+
+
+
+
+      </header>
+    
 
     
       <div class="article-meta">
         <a href="/2019/07/26/初见Hexo/" class="article-date">
-  <time datetime="2019-07-26T05:20:58.446Z" itemprop="datePublished">2019-07-26</time>
+  <time datetime="2019-07-26T07:09:12.000Z" itemprop="datePublished">2019-07-26</time>
 </a>
         
       </div>
@@ -142,7 +156,16 @@
 <p>deloyer not found:git</p>
 </blockquote>
 <p>需执行以下命令，将hexo部署到git page的deployer</p>
-<pre><code>npm install hexo-deployer-git --save</code></pre><h3 id="美化HEXO"><a href="#美化HEXO" class="headerlink" title="美化HEXO"></a><font color="red">美化HEXO</font></h3><p>可在以下地址需找主题：<br><a href="https://github.com/search?o=desc&q=topic%3Ahexo-theme&s=stars&type=Repositories" target="_blank" rel="noopener">https://github.com/search?o=desc&amp;q=topic%3Ahexo-theme&amp;s=stars&amp;type=Repositories</a><br>并找到所需主题的github地址</p>
+<pre><code>npm install hexo-deployer-git --save</code></pre><h3 id="美化HEXO"><a href="#美化HEXO" class="headerlink" title="美化HEXO"></a><font color="red">美化HEXO</font></h3><p>搭建后，你会发现浏览器加载该页面会很卡，目前国内访问GitHub速度慢，还可能被墙，所以Gitee来构建个人博客，保证<strong>访问速度</strong></p>
+<p>其中在Gitee中项目名称新建为同用户名即可<br><img src="/images/1.png" alt></p>
+<p>_config.yml文件配置改为如下</p>
+<blockquote>
+<pre><code>deploy:
+    type: git
+    repo: https://gitee.com/ianlong/ianlong
+    branch: master</code></pre></blockquote>
+<p>最后在项目的服务中找到Pages服务，更新即会生成网站地址<br><img src="/images/2.png" alt></p>
+<h3 id="美化HEXO-1"><a href="#美化HEXO-1" class="headerlink" title="美化HEXO"></a><font color="red">美化HEXO</font></h3><p>可在以下地址需找主题：<br><a href="https://github.com/search?o=desc&q=topic%3Ahexo-theme&s=stars&type=Repositories" target="_blank" rel="noopener">https://github.com/search?o=desc&amp;q=topic%3Ahexo-theme&amp;s=stars&amp;type=Repositories</a><br>并找到所需主题的github地址</p>
 <p>项目的themes文件夹下执行clone命令<br>将其克隆到本地themes/ocean文件夹下：</p>
 <pre><code>git clone https://github.com/zhwangart/hexo-theme-ocean ocean</code></pre><p>修改_config.yml文件，themes对应参数 ocean</p>
 <p>执行cmd命令:</p>
@@ -154,7 +177,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ianlong.gitee.io/2019/07/26/初见Hexo/" data-id="cjyjr3hu30000occc20ykr61w"
+      <a data-url="http://ianlong.gitee.io/2019/07/26/初见Hexo/" data-id="cjyjrnj6y00005wcc5389zva4"
          class="article-share-link">Share</a>
       
     </footer>
