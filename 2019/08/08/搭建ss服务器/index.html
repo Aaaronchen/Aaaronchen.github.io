@@ -7,6 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>
+    搭建个人ss梯子 |
     
     Hexo</title>
   
@@ -21,52 +22,17 @@
 </html>
 <body>
 <main class="content">
-  <section class="jumbotron">
-  <div class="video">
-    
-      <div class="video-frame">
-        <img src="/images/ocean/overlay-hero.png" alt="Decorative image frame">
-      </div>
-    
-    <div class="video-media">
-      <video playsinline="" autoplay="" loop="" muted="" data-autoplay=""
-             poster="/images/ocean/ocean.png" x5-video-player-type="h5">
-        <source src="/images/ocean/ocean.mp4" type="video/mp4">
-        <source src="/images/ocean/ocean.ogv" type="video/ogg">
-        <source src="/images/ocean/ocean.webm" type="video/webm">
-        <p>Your user agent does not support the HTML5 Video element.</p>
-      </video>
-      <div class="video-overlay"></div>
-    </div>
-    <div class="video-inner text-center text-white">
-      <h1><a href="/">Hexo</a></h1>
-      <p></p>
-      <div><img src="/images/hexo-inverted.svg" class="brand" alt="Hexo"></div>
-    </div>
-    <div class="video-learn-more">
-      <a class="anchor" href="#landingpage"><i class="fe fe-mouse"></i></a>
-    </div>
-  </div>
-</section>
-
-<div id="landingpage">
   <section class="outer">
-  <article class="articles">
-    
-    <h1 class="page-type-title"></h1>
-
-    
-      
-        <article id="post-搭建ss服务器" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
+  <article id="post-搭建ss服务器" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h2 itemprop="name">
-      <a class="article-title" href="/2019/08/08/搭建ss服务器/">搭建个人ss梯子</a>
-    </h2>
+    <h1 class="article-title" itemprop="name">
+      搭建个人ss梯子
+    </h1>
   
   
 
@@ -212,158 +178,29 @@
   </div>
 
   
+    
+  <nav class="article-nav">
+    
+    
+      <a href="/2019/07/26/初见Hexo/" class="article-nav-link">
+        <strong class="article-nav-caption">Olde posts</strong>
+        <div class="article-nav-title">初见HEXO</div>
+      </a>
+    
+  </nav>
 
+
+  
+
+  
+    
   
 
 </article>
 
 
 
-      
-        <article id="post-初见Hexo" class="article article-type-post" itemscope itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h2 itemprop="name">
-      <a class="article-title" href="/2019/07/26/初见Hexo/">初见HEXO</a>
-    </h2>
-  
-  
-
-
-
-
-      </header>
-    
-
-    
-      <div class="article-meta">
-        <a href="/2019/07/26/初见Hexo/" class="article-date">
-  <time datetime="2019-07-26T07:09:12.000Z" itemprop="datePublished">2019-07-26</time>
-</a>
-        
-      </div>
-    
-
-    <div class="article-entry" itemprop="articleBody">
-      
-
-      
-
-      
-        <h2 id="初见Hexo"><a href="#初见Hexo" class="headerlink" title="初见Hexo"></a>初见Hexo</h2><p><strong>Hexo</strong> 用来搭建个人blog简直是各行各业小白福音.你以为需要掌握HTML，JS，CSS以及各种后端程序吗？按”步”就”搬”就能轻松实现！</p>
-<h3 id="名词解析"><a href="#名词解析" class="headerlink" title="名词解析"></a><font color="red">名词解析</font></h3><p>Hexo：一种常用的博客框架。可以认为它是一种博客模板，高度的自定义性，只要你愿意花时间，你可以建立出各种高大上的博客来<br>Hexo官方网站 <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a></p>
-<p>Github：一个全世界程序猿聚集的知名网站。我们这里要利用网站里的Github Pages功能来托管需发布到网上的博客的相关文件</p>
-<p>Git： 知名的版本控制系统，用于博客同步到Github，只需掌握几条常用命令，后期用的最多的就是它</p>
-<p>Node.js： 提供JavaScript的开发环境</p>
-<h3 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a><font color="red">搭建教程</font></h3><ol>
-<li>安装软件（GIT,NODEJS）</li>
-</ol>
-<ul>
-<li>安装 HEXO 框架</li>
-<li>配置 HEXO 服务</li>
-<li>创建 GITHUB 并绑定 HEXO 到 Github Pages</li>
-<li>美化及同步 HEXO</li>
-</ul>
-<h3 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a><font color="red">安装软件</font></h3><p>NODEJS 和 GIT在网上已经有各种教程，安装更是简便，这里略过<br>安装后检测是否安装成功可用以下执行以下cmd命令,显示的是安装的版本号</p>
-<ul>
-<li><code>git –version</code></li>
-<li><code>node -v</code></li>
-<li><code>npm -v</code></li>
-</ul>
-<h3 id="安装Hexo博客框架"><a href="#安装Hexo博客框架" class="headerlink" title="安装Hexo博客框架"></a><font color="red">安装Hexo博客框架</font></h3><p>在安装完git之后，右键选择<strong>git bash here</strong>,执行以下命令进行安装hexo 以及 将hexo部署到git page的deployer</p>
-<ul>
-<li><code>npm install hexo-cli -g</code></li>
-<li><code>npm install hexo-deployer-git --save</code> (若不执行这行则后续报错：<strong>deloyer not found:git</strong>)</li>
-</ul>
-<p>选择合适的磁盘路径作为本地存放管理博客的地址（例如 G:\Blog\Hexo）执行cmd命令</p>
-<ul>
-<li><code>hexo init</code></li>
-<li><code>hexo install</code></li>
-</ul>
-<p>继续执行命令，体验HEXO</p>
-<ul>
-<li><code>hexo g</code></li>
-<li><code>hexo s</code></li>
-</ul>
-<p>打开地址 <a href="http://localhost:4000/" title="服务地址" target="_blank" rel="noopener">http://localhost:4000/</a> 即可体验</p>
-<h3 id="关联-HEXO-到-github-page"><a href="#关联-HEXO-到-github-page" class="headerlink" title="关联 HEXO 到 github page"></a><font color="red">关联 HEXO 到 github page</font></h3><p><strong>1. 注册github创建项目</strong>（<strong>New repository</strong>）</p>
-<p>项目名称：yourname.github.io 例如（Aaaronchen.github.io）</p>
-<p><strong>2. 配置关联SSH密钥</strong></p>
-<p>配置Github的SSH密钥可以让本地git项目与远程的github建立联系，让我们在本地写了代码之后直接通过git操作就可以实现本地代码库与Github代码库同步。</p>
-<p>在git bash中运行<code>cd ~/. ssh</code>检查本机是否有SSH keys</p>
-<p>不存在则创建 <code>ssh-keygen -t rsa -C &quot;your_email@example.com</code></p>
-<p>创建后复制密钥 <code>clip &lt; ~/.ssh/id_rsa.pub</code> 在github的account settings 中选择 SSH Keys –&gt; 粘贴即可</p>
-<p>输如命令<code>ssh -T git@github.com</code> 测试设置是否成功，得到反馈：</p>
-<blockquote>
-<p>The authenticity of host ‘github.com (207.97.227.239)’ can’t be established.<br>RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.<br>Are you sure you want to continue connecting (yes/no)?</p>
-</blockquote>
-<p>输入yes即可完成SSH配置</p>
-<p><strong>3. 修改_config.yml文件</strong></p>
-<p>在本地项目中找到_config.yml文件配置repo为你相应的地址</p>
-<blockquote>
-<pre><code>deploy:
-    type: git
-    repo: git@github.com:Aaaronchen/Aaaronchen.github.io.git
-    branch: master</code></pre></blockquote>
-<h3 id="本地同步到github上"><a href="#本地同步到github上" class="headerlink" title="本地同步到github上"></a><font color="red">本地同步到github上</font></h3><p>执行cmd命令</p>
-<ul>
-<li><code>hexo g</code>   生成</li>
-<li><code>hexo d</code>    部署</li>
-</ul>
-<p>若出现错误：</p>
-<blockquote>
-<p>deloyer not found:git</p>
-</blockquote>
-<p>需执行以下命令，将hexo部署到git page的deployer</p>
-<pre><code>npm install hexo-deployer-git --save</code></pre><h3 id="优化HEXO"><a href="#优化HEXO" class="headerlink" title="优化HEXO"></a><font color="red">优化HEXO</font></h3><p>搭建后，你会发现浏览器加载该页面会很卡，目前国内访问GitHub速度慢，还可能被墙，所以Gitee来构建个人博客，保证<strong>访问速度</strong></p>
-<p>其中在Gitee中项目名称新建为同用户名即可<br><img src="/images/1.png" alt></p>
-<p>_config.yml文件配置改为如下</p>
-<blockquote>
-<pre><code>deploy:
-    type: git
-    repo: https://gitee.com/ianlong/ianlong
-    branch: master</code></pre><p><font color="red">要注意的是repo如果不使用ssh地址，那么SSH配置则不生效</font></p>
-</blockquote>
-<p>最后在项目的服务中找到Pages服务，更新即会生成网站地址<br><img src="/images/2.png" alt></p>
-<h3 id="美化HEXO"><a href="#美化HEXO" class="headerlink" title="美化HEXO"></a><font color="red">美化HEXO</font></h3><p>可在以下地址需找主题：<br><a href="https://github.com/search?o=desc&q=topic%3Ahexo-theme&s=stars&type=Repositories" target="_blank" rel="noopener">https://github.com/search?o=desc&amp;q=topic%3Ahexo-theme&amp;s=stars&amp;type=Repositories</a><br>并找到所需主题的github地址</p>
-<p>项目的themes文件夹下执行clone命令<br>将其克隆到本地themes/ocean文件夹下：</p>
-<pre><code>git clone https://github.com/zhwangart/hexo-theme-ocean ocean</code></pre><p>修改_config.yml文件，themes对应参数 ocean</p>
-<p>执行cmd命令:</p>
-<ul>
-<li><code>hexo clean</code>  清除服务缓存</li>
-<li><code>hexo d -g</code>   更新到github上</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://aaaronchen.github.io/2019/07/26/初见Hexo/" data-id="cjzuvwdt2000078ccsqjlgh0y"
-         class="article-share-link">Share</a>
-      
-    </footer>
-
-  </div>
-
-  
-
-  
-
-</article>
-
-
-
-      
-  </article>
-  
-
-  
 </section>
-</div>
-
   <footer class="footer">
   <div class="outer">
     <div class="float-right">
